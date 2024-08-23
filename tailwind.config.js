@@ -22,11 +22,11 @@ module.exports = {
                 'on-light': themeStyle.onLight,
                 dark: themeStyle.dark,
                 'on-dark': themeStyle.onDark,
-                primary: themeStyle.primary,
+                primary: themeStyle.primary,  // Blue
                 'on-primary': themeStyle.onPrimary,
-                secondary: themeStyle.secondary,
+                secondary: themeStyle.secondary,  // Black
                 'on-secondary': themeStyle.onSecondary,
-                complementary: themeStyle.complementary,
+                complementary: themeStyle.complementary,  // Black
                 'on-complementary': themeStyle.onComplementary
             },
             spacing: {
