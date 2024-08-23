@@ -4,11 +4,11 @@
     "onLight": "#050806",
     "dark": "#000000",
     "onDark": "#FBFFF2",
-    "primary": "#0804F6",  // Blue
+    "primary": "#0804F6",  
     "onPrimary": "#FBFFF2",
-    "secondary": "#000000",  // Black (changed from red)
+    "secondary": "#000000", 
     "onSecondary": "#FBFFF2",
-    "complementary": "#000000",  // Black (for gradient effect)
+    "complementary": "#000000",  
     "onComplementary": "#FBFFF2",
     "fontBody": "fontPrimary",
     "h1": {
