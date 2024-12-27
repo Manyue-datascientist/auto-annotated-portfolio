@@ -1,5 +1,5 @@
 ---
-type: ProjectFeedLayout
+type: PageLayout
 title: Projects
 colors: colors-a
 backgroundImage:
@@ -9,35 +9,34 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 50
-projectFeed:
-  type: ProjectFeedSection
-  colors: colors-f
-  projects:  # Changed from 'items'
-    - type: FeaturedItem
-      title: LoanTap - Logistic Regression
-      subtitle: Business Case Study using Logistic Regression
-      description: >  # Changed from 'text'
-        LoanTap is a fintech startup that uses AI to predict loan default risk. I have used Logistic Regression model to predict the probability of loan default for borrowers.
-      featuredImage:
-        type: ImageBlock
-        url: [your-image-url-here]  # Add an image URL if you have one
-        altText: LoanTap Project
+sections:
+  - type: TextSection
+    colors: colors-f
+    variant: variant-a
+    title: My Projects
+    text: >
+      I've worked on several interesting projects in Machine Learning, Data Science, and AI. 
+      From predictive analytics with LoanTap to university admission predictions and AI chatbots, 
+      each project demonstrates my passion for solving real-world problems with data.
+
+
+      For a detailed look at all my projects and interactive demonstrations, please visit my project portfolio:
+    actions:
+      - type: Link
+        label: View Project Portfolio
+        url: https://manyue-portfolio.streamlit.app/
+        showIcon: true
+        icon: arrowRight
+    styles:
+      self:
+        height: auto
+        width: narrow
+        padding: ["pt-36", "pb-36", "pl-4", "pr-4"]
+        justifyContent: center
+      title:
+        textAlign: center
+      text:
+        textAlign: center
       actions:
-        - type: Link
-          label: Explore Project
-          url: https://manyue-portfolio.streamlit.app/
-      
-  showDate: false
-  showDescription: true
-  showReadMoreLink: true
-  showFeaturedImage: true
-  variant: variant-a
-  styles:
-    self:
-      width: narrow
-      padding:
-        - pt-0
-        - pl-4
-        - pr-4
-        - pb-12
+        justifyContent: center
 ---
