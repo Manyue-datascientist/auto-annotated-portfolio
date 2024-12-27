@@ -13,18 +13,19 @@ sections:
   - type: TextSection
     colors: colors-f
     variant: variant-a
-    title: My Projects
+    title: MY PROJECTS
     text: >
-      I've worked on several interesting projects in Machine Learning, Data Science, and AI. 
-      From predictive analytics with LoanTap to university admission predictions and AI chatbots, 
-      each project demonstrates my passion for solving real-world problems with data.
+      I've worked on several interesting projects in Machine Learning, Data Science, and AI. From 
+      predictive analytics with LoanTap to university admission predictions and AI chatbots, each 
+      project demonstrates my passion for solving real-world problems with data.
 
 
       For a detailed look at all my projects and interactive demonstrations, please visit my project portfolio:
     actions:
-      - type: Link
+      - type: Button
         label: View Project Portfolio
         url: https://manyue-portfolio.streamlit.app/
+        style: primary
         showIcon: true
         icon: arrowRight
     styles:
