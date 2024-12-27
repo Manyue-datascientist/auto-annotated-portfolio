@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Projects
+title: MY PROJECTS
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -10,9 +10,8 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 50
 sections:
-  - type: TextSection
+  - type: HeroSection
     colors: colors-f
-    variant: variant-a
     title: MY PROJECTS
     text: >
       I've worked on several interesting projects in Machine Learning, Data Science, and AI. From 
@@ -23,11 +22,9 @@ sections:
       For a detailed look at all my projects and interactive demonstrations, please visit my project portfolio:
     actions:
       - type: Button
-        label: View Project Portfolio
+        label: View My Project Portfolio
         url: https://manyue-portfolio.streamlit.app/
         style: primary
-        showIcon: true
-        icon: arrowRight
     styles:
       self:
         height: auto
