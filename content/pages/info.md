@@ -166,6 +166,10 @@ sections:
       - type: Label
         label: "Python Libraries"
       - type: Label
+        label: "EDA"
+      - type: Label
+        label: "Feature Engineering"
+      - type: Label
         label: "Machine Learning"
       - type: Label
         label: "Deep Learning"
@@ -175,6 +179,11 @@ sections:
         label: "Computer Vision"
       - type: Label
         label: "Product Analytics"
+      - type: Label
+        label: "A/B Testing"
+      - type: Label
+        label: "ML Ops"
+
     styles:
       self:
         padding: ["pt-12", "pb-12", "pl-4", "pr-4"]
@@ -206,6 +215,8 @@ sections:
       **Email:** [manyueinfo@gmail.com](mailto:manyueinfo@gmail.com)
 
       **GitHub:** [Manyue-datascientist](https://github.com/Manyue-datascientist)
+
+      **Project Portfolio:** [Manyue's Projects](https://manyue-datascientist-portfolio.streamlit.app/)
 
       **LinkedIn:** [Manyue Javvadi](https://www.linkedin.com/in/manyue-javvadi-datascientist/)
     styles:

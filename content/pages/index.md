@@ -61,7 +61,7 @@ sections:
     subtitle: Where AI Meets Real-World Impact
     projects:
       - type: FeaturedItem
-        title: Jamboree Education - Linear Regression
+        title: University Admission Prediction - Linear Regression
         subtitle: Business Case Study using Linear Regression
         text: >
           It helps in creating new feature where students/learners can come to Jamboree Education and check their probability of getting into the IVY league college. This feature estimates the chances of graduate admission from an Indian perspective.
@@ -79,17 +79,13 @@ sections:
         actions:
           - type: Link
             label: Explore Project
-            url: /projects/healthcare-analytics
+            url: /projects/
 
       - type: FeaturedItem
-        title: Auto Feature Selection tool for Machine Learning Problems.
-        subtitle: Developed a tool that automatically selects the best features for a machine learning problem. 
+        title: Personalized AI Assistant
+        subtitle: Build a personalized AI assistant for my portfolio It acts as companion for recruiters and hiring managers who want to interact with my portfolio.
         text: >
-          This tool uses a combination of feature selection algorithms and machine learning models to select the best features for a machine learning problem.
-          Our solution focuses on:
-          • Demand forecasting
-          • Inventory management
-          • Route optimization
+          Built as a demonstration of practical AI application, this assistant revolutionizes how recruiters and hiring managers interact with my portfolio. Unlike traditional chatbots, it’s designed with a unique optimization approach that prioritizes efficiency and accuracy.
         actions:
           - type: Link
             label: View Details
@@ -171,8 +167,8 @@ sections:
         url: https://www.linkedin.com/in/manyue-javvadi-datascientist/
         style: primary
       - type: Link
-        label: Explore My Code
-        url: https://github.com/Manyue-datascientist
+        label: Explore My Projects
+        url: https://manyue-datascientist-portfolio.streamlit.app/
     styles:
       self:
         height: auto
