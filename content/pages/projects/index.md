@@ -23,7 +23,7 @@ sections:
     actions:
       - type: Button
         label: View My Project Portfolio
-        url: https://manyue-portfolio.streamlit.app/
+        url: https://manyue-datascientist-portfolio.streamlit.app/
         style: primary
     styles:
       self:
