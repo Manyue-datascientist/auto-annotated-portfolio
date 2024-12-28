@@ -135,7 +135,7 @@ sections:
     actions:
       - type: Link
         label: Open Resume
-        url: https://drive.google.com/file/d/1-Vu7xZMZ90Srz1IXc_WqQR6kOL_bd7mg/preview
+        url: https://drive.google.com/file/d/16EKH63dX5KTVQf1sgzikXcE-u6HGmk5W/view?usp=sharing
         showIcon: true
         icon: arrowRight
         style: primary
