@@ -31,9 +31,9 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/Manyue-datascientist",
+                "altText": "Portfolio",
+                "label": "Portfolio",
+                "url": "https://manyue-datascientist-portfolio.streamlit.app/",
                 "icon": "github",
                 "style": {
                     "margin": "0 20px 0 0"
@@ -68,14 +68,14 @@
             },
             {
                 "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
+                "label": "Projects Portfolio",
+                "url": "https://manyue-datascientist-portfolio.streamlit.app/",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "GitHub",
-                "url": "https://github.com/Manyue-datascientist",
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/manyue-javvadi-datascientist/",
                 "altText": "Portfolio"
             }
         ],
